@@ -1,3 +1,3 @@
 # pysnippets-md
 
-This repository contains markdown files for [pysnippets.com](http://pysnippets.com)
+This repository contains the markdown files for [pysnippets.com](http://pysnippets.com)
