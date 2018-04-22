@@ -1,11 +1,11 @@
 
 
-### Interactive computing
+# Interactive computing
 
 [Ipython](https://ipython.org/)
 [Jupyter](https://jupyter.org/)
 
-### Machine Learning and Data Analysis
+# Machine Learning and Data Analysis
 
 [pandas](https://pandas.pydata.org/)
 Provides advanced capabilities for declarative data

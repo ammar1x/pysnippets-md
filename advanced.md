@@ -1,29 +1,27 @@
-### Define a class
+# Define a class
 
 ```python
-  Class Person(object):
+  class Person(object):
     def __init__(self, name, birthDate):
       self.name = name
-      self.birthDate
-    def getBirthDate(self):
-      return self.birthDate
-    def getName(self):
-      return self.name
+      self.birthDate = birthDate
+    def getBirthYear(self):
+      return self.birthDate.year
     def jump(self):
       return self.name + " is jumping"
 ```
 
-### Working with objects
+# Working with objects
 
 ```python
   tomas = Person('Tomas', '11-11-1980') # creating an instance
   tomas.jump() # calling a method
 ```
 
-### Class Inheritance 1
+# Class Inheritance 1
 
 ```python
-  Class Employee(Person):
+  class Employee(Person):
     """Represents an employee"""
     def __init__(self, name, birthDate, role):
       super().___init__(name, birthDate)
@@ -32,7 +30,7 @@
       return salaries[self.role]
 ```
 
-### Throw an exception
+# Throw an exception
 
 ```python
   def sqrt(x):
@@ -43,7 +41,7 @@
 ```
 
 
-### Catch an exception
+# Catch an exception
 
 ```python
   x = -1
