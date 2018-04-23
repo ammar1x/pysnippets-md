@@ -125,7 +125,8 @@ comparison.
   1 > 10  # => False
   2 <= 2  # => True
   2 >= 2  # => True
-``
+```
+
 ### Comparison Chaining
 
 You can chain comparison operators.
@@ -133,8 +134,7 @@ You can chain comparison operators.
 # check if x is between 5 and 6
 
 1 <= x <= 6
-
-````
+```
 
 # Control Flow
 
@@ -152,7 +152,7 @@ Control flow is the order in which statements are executed.
     print("Happy birthday")
   else:
     print("Not yet")
-````
+```
 
 ## Loops
 
