@@ -132,8 +132,7 @@ comparison.
 You can chain comparison operators.
 ```python
 # check if x is between 5 and 6
-
-1 <= x <= 6
+5 <= x <= 6
 ```
 
 # Control Flow
